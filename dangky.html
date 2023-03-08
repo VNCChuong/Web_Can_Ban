@@ -36,52 +36,59 @@
             </div>
         </div>
     </header>
-    <main>
-        <fieldset>
-            <legend><b>ĐĂNG KÝ</b></legend>
-            <form action="dangky.html">
+    <main class="register">
+        <form action="dangky.html">
+            <fieldset>
+                <legend><b>ĐĂNG KÝ</b></legend>
+                <div class="underline"></div>
                 <table>
                     <tr>
-                        <td><label>Email</label></td>
-                        <td> <input type="text" name="email" placeholder="Vui lòng nhập email."></td>
-                    </tr>
-                    <tr>
-                        <td><label>Mật khẩu</label></td>
-                        <td> <input type="password" name="psw" placeholder="Vui lòng nhập mật khẩu"></td>
-                    </tr>
-                    <tr>
-                        <td><label>Nhập lại mật khẩu</label></td>
-                        <td> <input type="password" name="psw2" placeholder="Vui lòng nhập mật khẩu"></td>
-                    </tr>
-                    <tr>
-                        <td><label>Cấp độ thành viên</label></td>
                         <td>
+                            <i class="fa fa-envelope icon"></i>
+                            <input type="text" name="email" placeholder="Vui lòng nhập email.">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fa fa-key icon"></i>
+                            <input type="password" name="psw" placeholder="Vui lòng nhập mật khẩu">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fa fa-key icon"></i>
+                            <input type="password" name="psw2" placeholder="Vui lòng nhập mật khẩu">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="test">
+                            <i class="fa fa-users icon"></i>
                             <input type="radio" name="MemberType" checked>Bạc
                             <input type="radio" name="MemberType">Vàng
                             <input type="radio" name="MemberType">Bạch Kim
                         </td>
                     </tr>
                     <tr>
-                        <td><label>Ảnh đại diện</label></td>
                         <td>
+                            <i class="fa fa-id-badge icon"></i>
                             <input type="file" method="post" enctype="multipart/form-data">
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
+                        <td class="table-rule" colspan="2">
                             <b>Thông qua việc tạo tài khoản, bạn đồng ý với</b>
                             <a href="#">Điều khoản & Quyền riêng tư của chúng tối</a>
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <input type="reset" value="Hủy">
+                        <td class="table-button">
                             <input type="submit" value="Đăng ký">
+                            <input type="reset" value="Hủy">
                         </td>
                     </tr>
                 </table>
-            </form>
-        </fieldset>
+            </fieldset>
+        </form>
     </main>
     <footer>
         <p>&copy; 2021 Bản quyền thuộc về FreeezeVN.

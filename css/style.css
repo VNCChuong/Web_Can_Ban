@@ -305,7 +305,7 @@ footer {
     line-height: 34px;
 }
 .about p{
-    padding: 0px 5px 0px 5px;
+    padding: 0px 5px 0px 10px;
     text-align: justify;
 }
 .news{
@@ -347,4 +347,78 @@ footer {
     margin: 0;
     text-align: justify;
     padding: 0px 5px 0px 5px;
+}
+.register fieldset{
+    border: none;
+    margin: 50px 0px 10px 0px;
+}
+.login fieldset{
+    border: none;
+    margin: 50px 0px 10px 0px;
+}
+.register legend{
+    margin: 0;
+    text-transform: uppercase;
+    color: #F90B6D;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 34px;
+}
+.icon{
+    border: none;
+    padding: 4px;
+    min-width: 30px;
+    color: #fff;
+    background-color: #cddc39;
+    text-align: center;
+}
+.register table{
+    margin-left: 25%;
+    width: 530px;
+}
+.login legend{
+    margin: 0;
+    text-transform: uppercase;
+    color: #F90B6D;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 34px;
+}
+.login table{
+    margin-left: 25%;
+    width: 530px;
+}
+.feedback h1{
+    margin: 50px 0px 0px 0px;
+    text-transform: uppercase;
+    color: #F90B6D;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 34px;  
+}
+.feedback legend{
+    margin: 0;
+    text-transform: uppercase;
+    color: #F90B6D;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 34px;
+}
+.feedback table{
+    margin-left: 25%;
+    width: 530px;
+}
+.feedback fieldset{
+    border: none;
+}
+.pink{
+    color: #ed4190;
 }

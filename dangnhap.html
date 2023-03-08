@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/font-awesome-4.7.0/css/font-awesome.css">
     <title>Đăng Nhập</title>
 </head>
+
 <body>
     <header>
         <div>
@@ -35,35 +36,44 @@
             </div>
         </div>
     </header>
-    <main>
-        <fieldset>
-            <legend><b>ĐĂNG NHẬP</b></legend>
-            <img src="./data/images/dangnhap/userlogin.png" alt="">
-            <form action="dangnhap.html">
+    <main class="login">
+        <form action="dangnhap.html">
+            <fieldset>
+                <legend><b>ĐĂNG NHẬP</b></legend>
+                <div class="underline"></div>
                 <table>
                     <tr>
-                        <td><label>Email</label></td>
-                        <td><input type="text" name="email" placeholder="Nhập email"></td>
-                    </tr>
-                    <tr>
-                        <td><label>Mật khẩu</label></td>
-                        <td><input type="password" name="psw" placeholder="Nhập mật khẩu"></td>
+                        <td>
+                            <img height="200px" src="./data/images/dangnhap/userlogin.png" alt="userlogin">
+                        </td>
                     </tr>
                     <tr>
                         <td>
+                            <i class="fa fa-envelope icon"></i>
+                            <input type="text" name="email" placeholder="Nhập email">
                         </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fa fa-key icon"></i>
+                            <input type="password" name="psw" placeholder="Nhập mật khẩu">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label><b>Bạn quên</b><a href="#"> Mật Khẩu?</a></label>
+                            <input type="checkbox"><b>Ghi nhớ lần đăng nhập sau</b>
+                        </td>
+                    </tr>
+                    <tr>
                         <td>
                             <input type="submit" value="Đăng nhập">
                             <input type="reset" value="Hủy">
                         </td>
                     </tr>
-                    <tr>
-                        <td><label><b>Bạn quên</b><a href="#"> Mật Khẩu?</a></label></td>
-                        <td><input type="checkbox"><b>Ghi nhớ lần đăng nhập sau</b></td>
-                    </tr>
                 </table>
-            </form>
-        </fieldset>
+            </fieldset>
+        </form>
     </main>
     <footer>
         <p>&copy; 2021 Bản quyền thuộc về FreeezeVN.

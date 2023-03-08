@@ -36,26 +36,34 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="feedback">
         <h1>Liên Hệ</h1>
-        <img src="./data/images/lienhe/check-in.png" alt="">
-        <h1>Địa chỉ: 0123, Tòa Nhà ABC, TP.Cần Thơ</h1>
-        <p>Nếu bạn có góp ý, vui lòng liên hệ bằng thư điện tử hoặc sử dụng biểu mẫu bên dưới.<br/>Xin cảm ơn</p>
+        <div class="underline"></div>
+        <p>
+            <i class="fa fa-map-marker icon pink"></i>
+            <b>Địa chỉ: 0123, Tòa Nhà ABC, TP.Cần Thơ</b>
+            Nếu bạn có góp ý, vui lòng liên hệ bằng thư điện tử hoặc sử dụng biểu mẫu bên dưới.Xin cảm ơn
+        </p>
         <fieldset>
             <legend>Góp ý</legend>
+            <div class="underline"></div>
             <form action="lienhe.html">
                 <table>
                     <tr>
-                        <td><label>Họ Tên</label></td>
-                        <td><input type="text" placeholder="Vui lòng nhập họ tên của bạn"></td>
-                    </tr>
-                    <tr>
-                        <td><label>Email</label></td>
-                        <td><input type="text" placeholder="Vui lòng nhập địa chỉ email"></td>
-                    </tr>
-                    <tr>
-                        <td><label>Chủ đề</label></td>
                         <td>
+                            <i class="fa fa-user icon"></i>
+                            <input type="text" placeholder="Vui lòng nhập họ tên của bạn">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fa fa-envelope icon"></i>
+                            <input type="text" placeholder="Vui lòng nhập địa chỉ email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fa fa-bars icon"></i>
                             <select name="select">
                                 <option>Về Sản Phẩm/ Dịch Vụ</option>
                                 <option>Về Ưu Đãi Thành Viên</option>
@@ -65,14 +73,11 @@
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <label>Nội Dung</label><br/>
+                            <i class="fa fa-sticky-note-o icon"></i>
                             <textarea name="message" cols="50" rows="7" placeholder="Nội dung cần liên hệ"></textarea>
                         </td>
                     </tr>
                     <tr>
-                        <td>
-
-                        </td>
                         <td>
                             <input type="submit" value="Gửi" method="post" enctype="application/x-www-form-urlencoded">
                         </td>
